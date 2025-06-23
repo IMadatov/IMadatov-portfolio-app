@@ -1,13 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [
-    RouterLink,
-  ],
+  imports: [],
   templateUrl: './home.component.html',
   styleUrls: [
     './home.component.css',
@@ -18,12 +15,11 @@ export class HomeComponent implements OnInit {
 
   dynamicText: string = "";
   phrases: string[] =[
-    "Team Player.",
-    "Software Developer.",
-    "Backend Engineer.",
+    "Kibr Dasturchi",
     "Software Engineer.",
     "Fullstack Developer.",
-    "Code Enthusiast.",
+    "CS-er.",
+    "is Not Doter."
   ];
 
   currentPhraseIndex: number = 0;
